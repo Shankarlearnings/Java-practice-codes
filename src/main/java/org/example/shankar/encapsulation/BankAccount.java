@@ -1,4 +1,4 @@
-package org.example.shankar;
+package org.example.shankar.encapsulation;
 // Defines the package where this class belongs.
 
 public class BankAccount {
@@ -74,4 +74,29 @@ public class BankAccount {
         | **Data hiding**    | The `balance` field cannot be modified directly, only through methods.                   |
         | **Business logic** | `deposit()` and `withDraw()` enforce rules like positive amounts and sufficient balance. |
 */
+
+/*
+Encapsulation is one of the four fundamental OOP (Object-Oriented Programming) principles.
+It is the process of wrapping data (variables) and code (methods) together into a single unit — usually a class — and restricting direct access to some of the object's components.
+*/
+
+/*
+🧠 Key Concepts:
+        ✅ 1. Data Hiding
+Internal details of a class are hidden from the outside world.
+
+Only controlled access is provided through getter and setter methods.
+
+        ✅ 2. Access Modifiers
+private → used to hide variables.
+
+public → used for getter and setter methods to provide access.
+
+✅ 3. Control Access
+Encapsulation allows you to control how data is read or modified.
+
+You can add validation inside setter methods.
+
+*/
+
 

@@ -1,7 +1,7 @@
-package org.example.shankar;
+package org.example.shankar.encapsulation;
 
 // This class models a Student with encapsulated fields, validation, and grade calculation
-public class Student {
+public class Student extends BankAccount{
 
     // Private fields: can't be accessed directly from outside the class
     private String studentId;
@@ -18,6 +18,16 @@ public class Student {
     // Getter method for marks
     public int getMarks() {
         return marks;
+    }
+
+
+    @Override
+    public void setAccountNumber(String accountNumber) {
+        super.setAccountNumber(accountNumber);
+    }
+
+    public void getAccountNumber(String accountNumber) {
+        super.getAccountNumber();
     }
 
     // Setter method for marks with validation
